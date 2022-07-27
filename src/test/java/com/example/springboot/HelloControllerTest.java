@@ -26,6 +26,6 @@ class HelloControllerTest {
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("Greetings Sauer-2 from Spring Boot  + Tanzu!"));
+            .andExpect(content().string("Greetings from Spring Boot  + Tanzu!"));
     }
 }
